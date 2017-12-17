@@ -1,2 +1,0 @@
-# BlogNovo
-Fiz outro

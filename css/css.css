@@ -17,10 +17,16 @@ header#topo{
  }
  
  section header{
-	padding: 5px 0 20px 50px;
+	padding: 5px 5px 20px 20px;
 	background-color: #BF7777;
  }
 
+section article .imagemNoticia{
+	background-image: url('../img/vingadores.png');
+	background-position:center;
+	padding: 200px;
+	margin: 10px 50px 10px 50px;
+}
 /* NAV BARRA DE NAVEGAÇÃO */
 
 nav ul {
