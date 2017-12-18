@@ -1,5 +1,5 @@
 body{
-	background-color: #783030;
+	background-color: #021B47;
 }
 
 
@@ -11,22 +11,44 @@ header#topo{
 
 }
  
+ 
+ /* PARTE DA SECTION */
+ 
  section{
 	border: 1px solid #ccc;
-	margin: 50px 500px 0 0;
+	margin: 50px 0 0 0;
+	float: left;
+	background-color: #fff;
+	width: 900px;
  }
  
  section header{
 	padding: 5px 5px 20px 20px;
-	background-color: #BF7777;
+	background-color: rgba(33,102,224,0.6); 
  }
+ 
+section article header{
+	background-color: rgba(33,102,224,0.3); 
+
+}
 
 section article .imagemNoticia{
 	background-image: url('../img/vingadores.png');
 	background-position:center;
-	padding: 200px;
+	padding: 210px;
 	margin: 10px 50px 10px 50px;
+	background-repeat: no-repeat;
 }
+
+section header h3,p{
+	line-height: 19px;
+	margin-bottom: 2px;
+}
+
+
+
+
+
 /* NAV BARRA DE NAVEGAÇÃO */
 
 nav ul {
@@ -55,4 +77,18 @@ nav li a:hover {
 
 nav li a.active{
 	background-color: rgba(0,0,0,0.5); 
+}
+
+
+
+
+/** CANTO DIREITO DA PAGINA */
+
+.flexBox{
+  -webkit-flex: 1;
+          flex: 1;
+  border: 1px solid #ccc;
+  width: 400px;
+  float: right;
+  padding: 50px;
 }
