@@ -1,5 +1,5 @@
 body{
-	background-color: #021B47;
+	background-color: #5290E0;
 }
 
 
@@ -7,7 +7,9 @@ header#topo{
 		padding: 80px;  /*  O TAMANHO DO HEADER */
 		background-color: #000;
 		background-position: center;
+		background-image: url('../img/header.jpg');
 		color: #fff;
+		background-repeat: no-repeat;
 
 }
  
@@ -15,28 +17,29 @@ header#topo{
  /* PARTE DA SECTION */
  
  section{
-	border: 1px solid #ccc;
-	margin: 50px 0 0 0;
+	margin: 20px 0 20px 0;
 	float: left;
 	background-color: #fff;
 	width: 900px;
+	
+
  }
  
  section header{
 	padding: 5px 5px 20px 20px;
-	background-color: rgba(33,102,224,0.6); 
+	background-color: rgba(2,27,71,1); 
+	color: white;
  }
  
 section article header{
-	background-color: rgba(33,102,224,0.3); 
-
+		background-color: rgba(2,27,71,0.5); 
 }
 
 section article .imagemNoticia{
 	background-image: url('../img/vingadores.png');
 	background-position:center;
-	padding: 210px;
-	margin: 10px 50px 10px 50px;
+	padding: 200px;
+	margin: 10px 50px 0px 50px;
 	background-repeat: no-repeat;
 }
 
@@ -56,7 +59,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #021B47;
 }
 
 nav li {
@@ -87,8 +90,136 @@ nav li a.active{
 .flexBox{
   -webkit-flex: 1;
           flex: 1;
-  border: 1px solid #ccc;
   width: 400px;
   float: right;
-  padding: 50px;
+  padding: 11px;
+  margin-top: 20px;
+  background-color: #fff;
+  min-width: 200px;
+}
+
+article div.imagemDestaque{
+	background-image: url('../img/liga.jpeg');
+	background-position: center;
+	padding: 95px;
+	
+}
+
+article div h3{
+	margin: 0 0 10px 0;
+	background-color: rgba(33,102,224,0.4); 
+}
+
+
+article .segunda{
+	margin-top: 20px;
+}
+
+article div.segundaImg{
+	background-image: url('../img/dragon.jpeg');
+	background-position: center;
+	padding: 95px;
+	
+}
+
+
+
+/* FOOOTER RODAPÉ */
+footer{
+	background-color:#021B47; /* DEIXA COM UM TOM DE TRANSPARÊNCIA */
+	color: white;
+	clear: both;
+	padding: 30px;
+
+}
+
+
+footer p{
+	text-align: center;
+	margin: 0;
+}
+
+
+div#juntaTudo{
+	max-width: 1500px;
+}
+
+
+/***************************/
+
+
+/* GALERIA */
+
+
+
+section#galeria{
+	width: 100%;
+
+}
+
+.flexGaleria{
+	padding: 10px;
+	display: -ms-flexbox;
+	-ms-flex-wrap: wrap;
+	-ms-flex-direction: column;
+	-webkit-flex-flow: row wrap; 
+	flex-flow: row wrap; 
+	display: -webkit-box;
+	display: flex;
+}
+
+div.galeria{
+	-webkit-box-flex: auto;
+		-ms-flex: auto;
+		flex: auto; 
+		padding: 150px;
+		margin: 5px; 
+	
+}
+
+div#img1{
+	  background-image: url('../img/galeria/groot.jpg');
+	  background-repeat: no-repeat;
+	  background-position: center;
+	   
+}
+
+div#img2{
+	  background-image: url('../img/galeria/flash.jpg');
+	  background-repeat: no-repeat;
+	  background-position: center;
+
+}
+div#img3{
+	  background-image: url('../img/galeria/capitao.jpg');
+	  background-repeat: no-repeat;
+	  background-position: center;
+}
+div#img4{
+	  background-image: url('../img/galeria/homem.jpg');
+	  background-repeat: no-repeat;
+	  background-position: center;
+}
+
+div#img5{
+	  background-image: url('../img/galeria/goku.jpg');
+	  background-repeat: no-repeat;
+	  background-position: center;
+}
+div#img6{
+	  background-image: url('../img/galeria/homem.jpg');
+	  background-repeat: no-repeat;
+	  background-position: center;
+}
+
+div#img7{
+	  background-image: url('../img/galeria/homem.jpg');
+	  background-repeat: no-repeat;
+	  background-position: center;
+}
+
+div#img8{
+	  background-image: url('../img/galeria/homem.jpg');
+	  background-repeat: no-repeat;
+	  background-position: center;
 }
