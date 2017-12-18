@@ -39,7 +39,7 @@ section article .imagemNoticia{
 	background-image: url('../img/vingadores.png');
 	background-position:center;
 	padding: 200px;
-	margin: 10px 50px 0px 50px;
+	margin: 10px 50px 10px 50px;
 	background-repeat: no-repeat;
 }
 
@@ -101,7 +101,7 @@ nav li a.ativa{
 article div.imagemDestaque{
 	background-image: url('../img/liga.jpeg');
 	background-position: center;
-	padding: 95px;
+	padding: 100px;
 	
 }
 
